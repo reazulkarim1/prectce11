@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* start logo style here */
+.span{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 25px;
+}
+/*end logo style here */
+
+/* start vab bar style here */
+.nav-item a{
+    text-transform: capitalize;
+    font-weight: 900;
+    transition: 0.5s all linear;
+}
+.navbar-collapse ul li a:hover{
+    color: crimson;
+}
+
+
+.navbar-collapse ul li{
+    position: relative;
+}
+.navbar-collapse ul li::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: crimson;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s all ease-in-out;
+
+}
+.navbar-collapse ul li:hover::after{
+    width: 100%;
+    background-color: crimson;
+}
+
+
+/* end vab bar style here */
+
+
+
+/* start content style here */
+
+.bg {
+    background-color:#ffd1d8;
+    border-radius: 15px;
+}
+
+.col-8 h2{
+    text-transform: uppercase;
+    line-height: 50px;
+    font-weight: 800;
+    font-size: 50px;
+
+}
+
+.col-8 p{
+    padding-right:40%;
+    font-weight: 900;
+    color: #6e6e6e;
+}
+.dolar{
+    color: RGB(225,0,152);
+    font-size: 30px;
+}
+.btn{
+    text-transform: uppercase;
+    background-color:  RGB(225,0,152)!important;
+    padding: 10px 50px!important;
+}
+
+/* end content style here */
+
+
+/* start banner style here  */
+.categoris{
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 30px;
+}
+.watch{
+    background-color: RGB(255,184,28) ;
+    border-radius: 20px;
+    color: #ffffff;
+}
+.watch-text{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+
+.bag{
+    background-color:  RGB(225,0,152) ;
+    border-radius: 20px;
+    color: #ffffff;
+}
+.bag-text{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+
+.shoes{
+    background-color: RGB(8,39,245);
+    border-radius: 20px;
+    color: #ffffff;
+}
+.shoes-text{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+/* end banner style here  */
+ 
+
+/* start work section style here  */
+.work{
+    background-color: #dad4d4;
+}
+.shoes1{
+    text-transform: capitalize;
+    font-weight: 800;
+    line-height:70px;
+}
+.col-3 {
+    text-align: right;
+    padding-top: 20px;
+    
+
+}
+
+.col-3 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(255, 145, 0);
+    transition: 0.5s all ease-in-out;
+}
+.col-3 a:hover{
+    color: rgb(4, 201, 4) ;
+}
+
+
+.card-title{
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+.btn-primary{
+    background-color: black!important;
+    padding: 10px 50px!important;
+}
+/* end work section style here */
+
+
+/* start form section here  */
+.form{
+    margin: 70px 0px;
+    padding: 40px 50px;
+    background-color: rgb(245, 206, 212);
+    border-radius: 20px;
+}
+.main-text{
+    padding:40px 10%
+}
+.text h2{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.btn{
+    color: #ffffff!important;
+}
+
+/* end form section here  */
